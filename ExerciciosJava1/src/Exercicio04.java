@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exercicio04 {
+public class Exercicio04 {
     public static void main(String[] args) {
 
         double salarioMinimo = 1320.0; // Em reais
