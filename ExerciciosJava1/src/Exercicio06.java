@@ -19,6 +19,7 @@ public class Exercicio06 {
         if (idadeUsuario>18&&idadeUsuario<65){
             System.out.println("Voto do usuário é obrigatório!!");
         }
+        scanner.close();
     }
 
 

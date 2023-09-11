@@ -15,5 +15,6 @@ public class Exercicio07 {
         else {
             System.out.println("Usuário não pode comprar um automóvel!!");
         }
+        scanner.close();
     }
 }
