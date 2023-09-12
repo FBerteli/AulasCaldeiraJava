@@ -1,3 +1,5 @@
+package Aula1;
+
 public class Exercicio03 {
     public static void main(String... args){
         int n1 = 6;
