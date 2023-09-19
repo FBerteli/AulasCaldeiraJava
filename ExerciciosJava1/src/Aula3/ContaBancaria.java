@@ -35,7 +35,7 @@ public class ContaBancaria extends Cliente {
         return + saldo;
     }
 
-    public void setSaldo(Double saldo) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 }
