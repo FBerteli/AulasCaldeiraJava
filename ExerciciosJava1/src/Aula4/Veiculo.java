@@ -1,22 +1,14 @@
 package Aula4;
 
-abstract class Veiculo {
+public class Veiculo {
     private String marca;
     private String modelo;
     private int Ano;
-    private Double Taxa;
 
-
-    public void calcularCustoViagem(int distancia){
-        System.out.println("O custo da distancia percorrida é ");
-    }
-
-    public Double getTaxa() {
-        return Taxa;
-    }
-
-    public void setTaxa(Double taxa) {
-        Taxa = taxa;
+    public Veiculo (String Marca, String Modelo, int ano){
+        marca = Marca;
+        modelo = Modelo;
+        Ano = ano;
     }
 
     public String getMarca() {
