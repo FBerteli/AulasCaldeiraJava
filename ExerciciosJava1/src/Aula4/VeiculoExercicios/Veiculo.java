@@ -1,6 +1,6 @@
-package Aula4;
+package Aula4.VeiculoExercicios;
 
-public class Veiculo {
+public abstract class Veiculo {
     private String marca;
     private String modelo;
     private int Ano;
@@ -11,6 +11,7 @@ public class Veiculo {
         Ano = ano;
     }
 
+    public abstract double calcularCustoViagem(int distancia);
     public String getMarca() {
         return marca;
     }
