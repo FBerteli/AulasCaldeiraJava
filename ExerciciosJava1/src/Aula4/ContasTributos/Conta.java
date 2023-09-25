@@ -1,39 +1,29 @@
 package Aula4.ContasTributos;
 
 public class Conta {
-    private int agencia;
-    private int conta;
     private double saldo;
 
-    public void Sacar(double valor){
-        saldo= saldo-valor;
-    }
-
-    public void deposito(double valor){
-        saldo = saldo + valor;
-    }
-
-    public int getAgencia() {
-        return agencia;
-    }
-
-    public void setAgencia(int agencia) {
-        this.agencia = agencia;
-    }
-
-    public int getConta() {
-        return conta;
-    }
-
-    public void setConta(int conta) {
-        this.conta = conta;
-    }
-
-    public Double getSaldo() {
-        return + saldo;
+    public double getSaldo() {
+        return saldo;
     }
 
     public void setSaldo(double saldo) {
         this.saldo = saldo;
+    }
+
+    public Conta(double saldoInicial) {
+        this.saldo = saldoInicial;
+    }
+
+    public void depositar(double valor) {
+        saldo += valor;
+    }
+
+    public void sacar(double valor) {
+        saldo -= valor;
+    }
+
+    public double obterSaldo() {
+        return saldo;
     }
 }
