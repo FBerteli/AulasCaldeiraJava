@@ -21,8 +21,7 @@ public class Tarefas {
         }
 
         public String getDescricao() {
-            return descricao;
-        }
+            return descricao;}
 
         @Override
         public String toString() {

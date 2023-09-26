@@ -42,8 +42,8 @@ public class FilaDeImpressao {
                 case 3:
                     if (!filaDeImpressao.isEmpty()) {
                         System.out.println("Fila de Impressão:");
-                        for (Impressao documento : filaDeImpressao) {
-                            System.out.println(documento);
+                        for (Impressao Documento: filaDeImpressao){
+                            System.out.println(Documento);
                         }
                     } else {
                         System.out.println("A fila de impressão está vazia.\n");
